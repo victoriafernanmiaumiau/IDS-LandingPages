@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.hero h1 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: clamp(1.5rem, 4vw, 3rem); /* Ajusta el tamaño ya que suele ser más grande */
+}
+body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    color: #e6bcbce0;
+}
+
+header,
+footer {
+    padding: 1rem 7vw;
+    background: #2b0010e5;
+    color: rgb(10, 0, 0);
+}
+
+.hero {
+    min-height: 65vh;
+    padding: 8rem 7vw;
+    background: #24010e;
+}
+
+.hero h1 {
+    max-width: 750px;
+    font-size: clamp(2.2rem, 6vw, 4.8rem);
+    margin: .3rem 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: .8rem 1.2rem;
+    color: rgb(5, 0, 0);
+    background: #a01538;
+    border-radius: .6rem;
+    text-decoration: none;
+}
+
+#beneficios {
+    padding: 3rem 7vw;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+}
+
+.cards article {
+    padding: 2rem;
+    background: rgb(14, 0, 0);
+    border: 1px solid #4e020f;
+    border-radius: 1rem;
+}
